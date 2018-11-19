@@ -11,8 +11,8 @@
             text-decoration: none;
             display: block;
             line-height: 3;
-            @include border();
-            transition: 0.4s, ease;
+            @include roundy();
+            transition: 0.4s ease;
             &:hover {
                 color: white;
                 background: #58E1C1;
@@ -20,3 +20,4 @@
         }
     }
 }
+

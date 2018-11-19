@@ -1,0 +1,22 @@
+%btn {
+    @include roundy();
+    color: white;
+    display: block;
+    width: 100%;
+    line-height: 2.6;
+    margin: 20px 0;
+    text-transform: uppercase;
+    transition: 0.4s ease;
+    &:hover {
+        cursor: pointer;
+        opacity: 0.8;
+    }
+    &:active {
+        opacity: initial;
+    }
+}
+
+%img {
+    display: block;
+    margin: 40px auto;
+}

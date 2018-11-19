@@ -1,4 +1,26 @@
 .headline--secondary {
     width: 90%;
-    margin: 35px auto;
+    margin: 35px 0;
+}
+
+.headline--primary {
+    color: $color-primary;
+    font-weight: bold;
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+
+.blockquote {
+    border-radius: 6px;
+    border-left: 10px solid $color-primary;
+    padding-left: 20px;
+    font-size: 1.4em;
+    font-style: italic;
+    line-height: 1.4;
+    margin-bottom: 40px;
+}
+
+.link {
+    color: $color-secondary;
+    text-decoration: none;
 }
