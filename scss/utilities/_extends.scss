@@ -2,9 +2,10 @@
     @include roundy();
     color: white;
     display: block;
-    width: 100%;
     line-height: 2.6;
     margin: 20px 0;
+    flex: 1;
+    width: 100%;
     text-transform: uppercase;
     transition: 0.4s ease;
     &:hover {
@@ -14,9 +15,23 @@
     &:active {
         opacity: initial;
     }
+    @include media('lg') {
+        flex-basis: 100px;
+        @include addGutter();
+    }
 }
 
 %img {
     display: block;
     margin: 40px auto;
+    align-self: center;
+}
+    
+%grid__col {
+    padding: 10px;
+    @include roundy();
+    margin-bottom: 6px;
+    @include media('lg') {
+        @include flex();
+    }
 }

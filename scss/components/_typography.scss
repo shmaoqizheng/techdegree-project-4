@@ -24,3 +24,9 @@
     color: $color-secondary;
     text-decoration: none;
 }
+
+.container {
+    .headline--secondary {
+        @include center();
+    }
+}
