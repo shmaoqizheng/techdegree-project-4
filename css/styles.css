@@ -1,13 +1,14 @@
 @import '../node_modules/normalize.css/normalize.css';
+@import url("https://fonts.googleapis.com/css?family=Varela");
 * {
   box-sizing: border-box;
-  font-family: "Varela", sans-serif;
-  color: #808080;
 }
 
-p {
+.container {
   font-size: 16px;
   line-height: 1.6;
+  font-family: "Varela", sans-serif;
+  color: #808080;
 }
 
 ul {
@@ -33,7 +34,7 @@ ul {
 .btn--info:active, .btn--warning:active, .btn--error:active, .btn--success:active, .btn--default:active {
   opacity: initial;
 }
-@media (min-width: 480px) {
+@media (min-width: 769px) {
   .btn--info, .btn--warning, .btn--error, .btn--success, .btn--default {
     flex-basis: 100px;
     margin-left: 1%;
@@ -53,7 +54,7 @@ ul {
   border: none;
   margin-bottom: 6px;
 }
-@media (min-width: 480px) {
+@media (min-width: 769px) {
   .grid__col--12, .grid__col--11, .grid__col--10, .grid__col--9, .grid__col--8, .grid__col--7, .grid__col--6, .grid__col--5, .grid__col--4, .grid__col--3, .grid__col--2 {
     display: flex;
     flex-direction: row;
@@ -99,7 +100,7 @@ ul {
   margin-left: auto;
   margin-bottom: 50px;
 }
-@media (min-width: 480px) {
+@media (min-width: 769px) {
   .grid__row {
     display: flex;
     flex-direction: row;
@@ -113,7 +114,7 @@ ul {
   background-color: #80e88c;
 }
 
-@media (min-width: 480px) {
+@media (min-width: 769px) {
   .grid__col--2 {
     width: 14.6666666667%;
     margin-left: 1%;
@@ -124,7 +125,7 @@ ul {
   background-color: #97e880;
 }
 
-@media (min-width: 480px) {
+@media (min-width: 769px) {
   .grid__col--3 {
     width: 23%;
     margin-left: 1%;
@@ -135,7 +136,7 @@ ul {
   background-color: #bae880;
 }
 
-@media (min-width: 480px) {
+@media (min-width: 769px) {
   .grid__col--4 {
     width: 31.3333333333%;
     margin-left: 1%;
@@ -146,7 +147,7 @@ ul {
   background-color: #dce880;
 }
 
-@media (min-width: 480px) {
+@media (min-width: 769px) {
   .grid__col--5 {
     width: 39.6666666667%;
     margin-left: 1%;
@@ -157,7 +158,7 @@ ul {
   background-color: #e8d180;
 }
 
-@media (min-width: 480px) {
+@media (min-width: 769px) {
   .grid__col--6 {
     width: 48%;
     margin-left: 1%;
@@ -168,7 +169,7 @@ ul {
   background-color: #e8ae80;
 }
 
-@media (min-width: 480px) {
+@media (min-width: 769px) {
   .grid__col--7 {
     width: 56.3333333333%;
     margin-left: 1%;
@@ -179,7 +180,7 @@ ul {
   background-color: #e88c80;
 }
 
-@media (min-width: 480px) {
+@media (min-width: 769px) {
   .grid__col--8 {
     width: 64.6666666667%;
     margin-left: 1%;
@@ -190,7 +191,7 @@ ul {
   background-color: #e88097;
 }
 
-@media (min-width: 480px) {
+@media (min-width: 769px) {
   .grid__col--9 {
     width: 73%;
     margin-left: 1%;
@@ -201,7 +202,7 @@ ul {
   background-color: #e880ba;
 }
 
-@media (min-width: 480px) {
+@media (min-width: 769px) {
   .grid__col--10 {
     width: 81.3333333333%;
     margin-left: 1%;
@@ -212,7 +213,7 @@ ul {
   background-color: #e880dc;
 }
 
-@media (min-width: 480px) {
+@media (min-width: 769px) {
   .grid__col--11 {
     width: 89.6666666667%;
     margin-left: 1%;
@@ -223,7 +224,7 @@ ul {
   background-color: #d180e8;
 }
 
-@media (min-width: 480px) {
+@media (min-width: 769px) {
   .grid__col--12 {
     width: 98%;
     margin-left: 1%;
@@ -248,7 +249,7 @@ ul {
   justify-content: flex-start;
   flex-wrap: wrap;
 }
-@media (min-width: 480px) {
+@media (min-width: 769px) {
   .nav {
     display: flex;
     flex-direction: row;
@@ -270,7 +271,7 @@ ul {
   border: none;
   transition: 0.4s ease;
 }
-@media (min-width: 480px) {
+@media (min-width: 769px) {
   .nav .nav__item a {
     padding: 0 20px;
   }
@@ -279,7 +280,7 @@ ul {
   color: white;
   background: #58E1C1;
 }
-@media (min-width: 480px) {
+@media (min-width: 769px) {
   .nav .nav__item {
     margin-right: 10px;
   }

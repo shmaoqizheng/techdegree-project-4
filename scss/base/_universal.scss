@@ -1,12 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Varela');
 * {
     box-sizing: border-box;
-    font-family: 'Varela', sans-serif;
-    color: #808080;
 }
-
-p {
+.container {
     font-size: 16px;
     line-height: 1.6;
+    font-family: 'Varela', sans-serif;
+    color: #808080;
 }
 
 ul {
